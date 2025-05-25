@@ -25,6 +25,15 @@
 *o.pki.goog  
 *webchannel-alkalimakersuite-pa.clients6.google.com  
 *jules.google.com
+*firebaselogging-pa.googleapis.com
+*speechs3proto2-pa.googleapis.com
+*deviceintegritytokens-pa.googleapis.com
+*beacons.gcp.gvt2.com
+*android.googleapis.com
+*play-fe.googleapis.com
+*mtalk.google.com
+*geomobileservices-pa.googleapis.com
+*supl.google.com
 
 # Сервисы Microsoft / Bing / Copilot  
 *bing.com  
@@ -102,7 +111,8 @@
 *in.appcenter.ms  
 *builds.parsec.app  
 *sentry.io  
-*auth0.com  
+*auth0.com
+с
 
 # Прочие популярные сервисы  
 *canva.com   
