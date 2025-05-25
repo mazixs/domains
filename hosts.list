@@ -30,9 +30,11 @@
 *bytelemon.com
 *byteoversea.com
 *canva.com
+*cdn.oaistatic.com
 *chatgpt.com
 *chatgpt.turn.livekit.cloud
 *claude.ai
+*consumer.cloud.gist.build
 *copilot.microsoft.com
 *default.exp-tas.com
 *deploy.static.akamaitechnologies.com
@@ -46,6 +48,7 @@
 *frontier.byteoversea.com
 *gemini.google.com
 *generativelanguage.googleapis.com
+*geomobileservices-pa.googleapis.com
 *gist.build
 *google.dev
 *grok.com
@@ -62,6 +65,7 @@
 *livekit.cloud
 *login.microsoftonline.com
 *maliva-mcs.byteoversea.com
+*mcs.ctobsnssdk.com
 *microsoft.com
 *microsoft365.com
 *mon-va.byteoversea.com
@@ -98,4 +102,4 @@
 *xsts.auth.xboxlive.com
 *z-p42-chat-e2ee-ig.facebook.com
 myip2.ru
-*geomobileservices-pa.googleapis.com
+*trae-api-us.mchost.guru

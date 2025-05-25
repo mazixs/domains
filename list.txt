@@ -8,6 +8,7 @@
 *oaistatic.com  
 *oaiusercontent.com  
 *sora.com
+*cdn.oaistatic.com
 
 # Сервисы Gemini, Gemini API, AI Studio, Google Labs, NotebookLM, jules, Sora
 *gemini.google.com  
@@ -69,6 +70,9 @@
 *bytelemon.com
 *telemetry.trae.ai
 *default.exp-tas.com
+*mcs.ctobsnssdk.com
+*bytegate.zijieapi.com
+*trae-api-sg.mchost.guru
 
 # Сервисы LiveKit (RTC)  
 *host.livekit.cloud  
@@ -102,6 +106,8 @@
 *gist.build
 *desktop-release.notion-static.com
 *http-inputs-notion.splunkcloud.com
+*consumer.cloud.gist.build
+*trae-api-us.mchost.guru
 
 # CDN / Инфраструктура / Dev-утилиты  
 *akamaitechnologies.com  
