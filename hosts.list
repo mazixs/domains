@@ -9,6 +9,7 @@
 *android.chat.openai.com
 *api-sg-central.trae.ai
 *api-us-east.trae.ai
+*api.github.com
 *api.revenuecat.com
 *api.sprig.com
 *api.trae.ai
@@ -30,6 +31,7 @@
 *chatgpt.turn.livekit.cloud
 *claude.ai
 *copilot.microsoft.com
+*default.exp-tas.com
 *deploy.static.akamaitechnologies.com
 *desktop-release.notion-static.com
 *dnsleaktest.com
@@ -47,6 +49,7 @@
 *in.appcenter.ms
 *intel.com
 *ipify.org
+*jules.google.com
 *labs.google
 *lf3-static.bytednsdoc.com
 *live.com
@@ -85,3 +88,4 @@
 *xsts.auth.xboxlive.com
 *z-p42-chat-e2ee-ig.facebook.com
 myip2.ru
+*xgpuweb.gssv-play-prod.xboxlive.com

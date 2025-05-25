@@ -9,7 +9,7 @@
 *oaiusercontent.com  
 *sora.com
 
-# Сервисы Google / Gemini  
+# Сервисы Gemini, Gemini API, AI Studio, Google Labs, NotebookLM, jules, Sora
 *gemini.google.com  
 *aistudio.google.com  
 *aisandbox-pa.googleapis.com  
@@ -24,6 +24,7 @@
 *google.dev  
 *o.pki.goog  
 *webchannel-alkalimakersuite-pa.clients6.google.com  
+*jules.google.com
 
 # Сервисы Microsoft / Bing / Copilot  
 *bing.com  
@@ -38,6 +39,7 @@
 *odc.officeapps.live.com  
 *xgpuwebf2p.gssv-play-prod.xboxlive.com  
 *xsts.auth.xboxlive.com  
+*xgpuweb.gssv-play-prod.xboxlive.com
 
 # Сервисы Trae.ai и ByteDance  
 *trae.ai  
@@ -57,6 +59,7 @@
 *tron-sg.bytelemon.com  
 *bytelemon.com
 *telemetry.trae.ai
+*default.exp-tas.com
 
 # Сервисы LiveKit (RTC)  
 *host.livekit.cloud  
@@ -66,6 +69,8 @@
 *elevenlabs.io  
 *api.us.elevenlabs.io  
 *elevenreader.io  
+*api.elevenlabs.io
+*help.elevenlabs.io
 
 # Сервисы Anthropic / Grok / X.ai  
 *claude.ai  
@@ -98,10 +103,10 @@
 *builds.parsec.app  
 *sentry.io  
 *auth0.com  
-*openwrt.org  
 
 # Прочие популярные сервисы  
 *canva.com   
 *intel.com  
 *web.archive.org  
 *z-p42-chat-e2ee-ig.facebook.com  
+*api.github.com
