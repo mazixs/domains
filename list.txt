@@ -1,128 +1,153 @@
-# Сервисы OpenAI  
-*chatgpt.com  
-*ab.chatgpt.com  
-*android.chat.openai.com  
-*webrtc.chatgpt.com  
-*chatgpt.turn.livekit.cloud  
-*openai.com  
-*oaistatic.com  
-*oaiusercontent.com  
-*sora.com
-*cdn.oaistatic.com
+## Сервисы OpenAI  
+chatgpt.com  
+ab.chatgpt.com  
+android.chat.openai.com  
+webrtc.chatgpt.com  
+chatgpt.turn.livekit.cloud  
+openai.com  
+oaistatic.com  
+cdn.oaistatic.com  
+oaiusercontent.com
+staging-files-eu.oaiusercontent.com
+files.oaiusercontent.com
+api.openai.com
+ace.openai.com
+labs.openai.com
+videos.openai.com
+status.openai.com
+chat.openai.com
+sora.openai.com
+supply.openai.com
+auth.openai.com
+ios.chat.openai.com
+images.openai.com
+beta.openai.com
+sora.com
+chat.com
 
-# Сервисы Gemini, Gemini API, AI Studio, Google Labs, NotebookLM, jules, Sora
-*gemini.google.com  
-*aistudio.google.com  
-*aisandbox-pa.googleapis.com  
-*assistant-s3-pa.googleapis.com  
-*alkalimakersuite-pa.clients6.google.com  
-*aitestkitchen.withgoogle.com  
-*generativelanguage.googleapis.com  
-*labs.google  
-*proactivebackend-pa.googleapis.com  
-*notebooklm.google  
-*notebooklm.google.com  
-*google.dev  
-*o.pki.goog  
-*webchannel-alkalimakersuite-pa.clients6.google.com  
-*jules.google.com
-*firebaselogging-pa.googleapis.com
-*speechs3proto2-pa.googleapis.com
-*deviceintegritytokens-pa.googleapis.com
-*beacons.gcp.gvt2.com
-*android.googleapis.com
-*play-fe.googleapis.com
-*mtalk.google.com
-*geomobileservices-pa.googleapis.com
-*supl.google.com
+## Сервисы Google / Gemini / AI Studio / Labs / Sora / NotebookLM / Jules  
+gemini.google.com  
+aistudio.google.com  
+aisandbox-pa.googleapis.com  
+assistant-s3-pa.googleapis.com  
+alkalimakersuite-pa.clients6.google.com  
+aitestkitchen.withgoogle.com  
+generativelanguage.googleapis.com  
+labs.google  
+proactivebackend-pa.googleapis.com  
+notebooklm.google  
+notebooklm.google.com  
+google.dev  
+ai.google.dev
+o.pki.goog  
+webchannel-alkalimakersuite-pa.clients6.google.com  
+jules.google.com  
+firebaselogging-pa.googleapis.com  
+speechs3proto2-pa.googleapis.com  
+deviceintegritytokens-pa.googleapis.com  
+beacons.gcp.gvt2.com  
+android.googleapis.com  
+play-fe.googleapis.com  
+mtalk.google.com  
+geomobileservices-pa.googleapis.com  
+supl.google.com  
 
-# Сервисы Microsoft / Bing / Copilot  
-*bing.com  
-*edgeservices.bing.com  
-*sydney.bing.com  
-*rewards.bing.com  
-*copilot.microsoft.com  
-*microsoft.com  
-*microsoft365.com  
-*login.microsoftonline.com  
-*live.com  
-*odc.officeapps.live.com  
-*xgpuwebf2p.gssv-play-prod.xboxlive.com  
-*xsts.auth.xboxlive.com  
-*xgpuweb.gssv-play-prod.xboxlive.com
+## Сервисы Microsoft / Bing / Copilot  
+bing.com  
+edgeservices.bing.com  
+sydney.bing.com  
+rewards.bing.com  
+copilot.microsoft.com  
+microsoft.com  
+microsoft365.com  
+login.microsoftonline.com  
+live.com  
+odc.officeapps.live.com  
+xgpuwebf2p.gssv-play-prod.xboxlive.com  
+xsts.auth.xboxlive.com  
+xgpuweb.gssv-play-prod.xboxlive.com
 
-# Сервисы Trae.ai и ByteDance  
-*trae.ai  
-*api.trae.ai  
-*api-us-east.trae.ai  
-*api-sg-central.trae.ai  
-*api.trae.com.cn  
-*trae.com.cn  
-*frontier.byteoversea.com  
-*starling-oversea.byteoversea.com  
-*mon-va.byteoversea.com  
-*maliva-mcs.byteoversea.com  
-*byteoversea.com  
-*bytednsdoc.com  
-*lf3-static.bytednsdoc.com  
-*bytegate-sg.byteintlapi.com  
-*tron-sg.bytelemon.com  
-*bytelemon.com
-*telemetry.trae.ai
-*default.exp-tas.com
-*mcs.ctobsnssdk.com
-*bytegate.zijieapi.com
-*trae-api-sg.mchost.guru
+## Сервисы Trae.ai и ByteDance  
+trae.ai  
+api.trae.ai  
+api-us-east.trae.ai  
+api-sg-central.trae.ai  
+api.trae.com.cn  
+trae.com.cn  
+telemetry.trae.ai  
+trae-api-sg.mchost.guru  
+default.exp-tas.com  
+mcs.ctobsnssdk.com  
+bytegate.zijieapi.com  
+frontier.byteoversea.com  
+starling-oversea.byteoversea.com  
+mon-va.byteoversea.com  
+maliva-mcs.byteoversea.com  
+byteoversea.com  
+bytednsdoc.com  
+lf3-static.bytednsdoc.com  
+bytegate-sg.byteintlapi.com  
+tron-sg.bytelemon.com  
+bytelemon.com
+trae-api-us.mchost.guru
 
-# Сервисы LiveKit (RTC)  
-*host.livekit.cloud  
-*turn.livekit.cloud  
+## Сервисы LiveKit (RTC)  
+host.livekit.cloud  
+turn.livekit.cloud
 
-# Сервисы ElevenLabs  
-*elevenlabs.io  
-*api.us.elevenlabs.io  
-*elevenreader.io  
-*api.elevenlabs.io
-*help.elevenlabs.io
+## Сервисы ElevenLabs  
+elevenlabs.io  
+api.us.elevenlabs.io  
+elevenreader.io  
+api.elevenlabs.io  
+help.elevenlabs.io
 
-# Сервисы Anthropic / Grok / X.ai  
-*claude.ai  
-*grok.com  
-*assets.grok.com  
-*x.ai  
+## Сервисы Anthropic / Claude AI  
+claude.ai  
+api.claude.ai  
+a-cdn.claude.ai  
+staging.claude.ai  
+www.claude.ai  
+api.console.anthropic.com
+anthropic.com
+console.anthropic.com
 
-# Тесты IP / утечек  
-*2ip.ru  
-*myip2.ru  
-*addr.tools  
-*myip.addr.tools  
-*ipify.org  
-*browserleaks.com  
-*dnsleaktest.com  
+## Сервисы Grok / X.ai  
+grok.com  
+assets.grok.com  
+x.ai  
+api.x.ai
 
-# Notion
-*api.sprig.com
-*notion.so 
-*gist.build
-*desktop-release.notion-static.com
-*http-inputs-notion.splunkcloud.com
-*consumer.cloud.gist.build
-*trae-api-us.mchost.guru
+## Тесты IP / утечек  
+2ip.ru  
+myip2.ru  
+addr.tools  
+myip.addr.tools  
+ipify.org  
+browserleaks.com  
+dnsleaktest.com
 
-# CDN / Инфраструктура / Dev-утилиты  
-*akamaitechnologies.com  
-*deploy.static.akamaitechnologies.com  
-*app.adjust.net.in  
-*api.revenuecat.com  
-*in.appcenter.ms  
-*builds.parsec.app  
-*sentry.io  
-*auth0.com
-с
+## Notion  
+api.sprig.com  
+notion.so  
+gist.build  
+desktop-release.notion-static.com  
+http-inputs-notion.splunkcloud.com  
+consumer.cloud.gist.build
 
-# Прочие популярные сервисы  
-*canva.com   
-*intel.com  
-*web.archive.org  
-*z-p42-chat-e2ee-ig.facebook.com  
-*api.github.com
+## CDN / Инфраструктура / Dev-утилиты  
+akamaitechnologies.com  
+deploy.static.akamaitechnologies.com  
+app.adjust.net.in  
+api.revenuecat.com  
+in.appcenter.ms  
+builds.parsec.app  
+sentry.io  
+auth0.com
+
+## Прочие популярные сервисы  
+canva.com  
+intel.com  
+web.archive.org  
+z-p42-chat-e2ee-ig.facebook.com  
+api.github.com  
