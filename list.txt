@@ -1,153 +1,276 @@
-## Сервисы OpenAI  
-chatgpt.com  
-ab.chatgpt.com  
-android.chat.openai.com  
-webrtc.chatgpt.com  
-chatgpt.turn.livekit.cloud  
-openai.com  
-oaistatic.com  
-cdn.oaistatic.com  
-oaiusercontent.com
-staging-files-eu.oaiusercontent.com
-files.oaiusercontent.com
-api.openai.com
-ace.openai.com
-labs.openai.com
-videos.openai.com
-status.openai.com
-chat.openai.com
-sora.openai.com
-supply.openai.com
-auth.openai.com
-ios.chat.openai.com
-images.openai.com
-beta.openai.com
-sora.com
-chat.com
+# Список доменов по сервисам
 
-## Сервисы Google / Gemini / AI Studio / Labs / Sora / NotebookLM / Jules  
-gemini.google.com  
-aistudio.google.com  
-aisandbox-pa.googleapis.com  
-assistant-s3-pa.googleapis.com  
-alkalimakersuite-pa.clients6.google.com  
-aitestkitchen.withgoogle.com  
-generativelanguage.googleapis.com  
-labs.google  
-proactivebackend-pa.googleapis.com  
-notebooklm.google  
-notebooklm.google.com  
-google.dev  
-ai.google.dev
-o.pki.goog  
-webchannel-alkalimakersuite-pa.clients6.google.com  
-jules.google.com  
-firebaselogging-pa.googleapis.com  
-speechs3proto2-pa.googleapis.com  
-deviceintegritytokens-pa.googleapis.com  
-beacons.gcp.gvt2.com  
-android.googleapis.com  
-play-fe.googleapis.com  
-mtalk.google.com  
-geomobileservices-pa.googleapis.com  
-supl.google.com  
+## Anthropic Claude (AI ассистент)
 
-## Сервисы Microsoft / Bing / Copilot  
-bing.com  
-edgeservices.bing.com  
-sydney.bing.com  
-rewards.bing.com  
-copilot.microsoft.com  
-microsoft.com  
-microsoft365.com  
-login.microsoftonline.com  
-live.com  
-odc.officeapps.live.com  
-xgpuwebf2p.gssv-play-prod.xboxlive.com  
-xsts.auth.xboxlive.com  
-xgpuweb.gssv-play-prod.xboxlive.com
-
-## Сервисы Trae.ai и ByteDance  
-trae.ai  
-api.trae.ai  
-api-us-east.trae.ai  
-api-sg-central.trae.ai  
-api.trae.com.cn  
-trae.com.cn  
-telemetry.trae.ai  
-trae-api-sg.mchost.guru  
-default.exp-tas.com  
-mcs.ctobsnssdk.com  
-bytegate.zijieapi.com  
-frontier.byteoversea.com  
-starling-oversea.byteoversea.com  
-mon-va.byteoversea.com  
-maliva-mcs.byteoversea.com  
-byteoversea.com  
-bytednsdoc.com  
-lf3-static.bytednsdoc.com  
-bytegate-sg.byteintlapi.com  
-tron-sg.bytelemon.com  
-bytelemon.com
-trae-api-us.mchost.guru
-
-## Сервисы LiveKit (RTC)  
-host.livekit.cloud  
-turn.livekit.cloud
-
-## Сервисы ElevenLabs  
-elevenlabs.io  
-api.us.elevenlabs.io  
-elevenreader.io  
-api.elevenlabs.io  
-help.elevenlabs.io
-
-## Сервисы Anthropic / Claude AI  
-claude.ai  
-api.claude.ai  
-a-cdn.claude.ai  
-staging.claude.ai  
-www.claude.ai  
-api.console.anthropic.com
+claude.ai
+www.claude.ai
+staging.claude.ai
 anthropic.com
 console.anthropic.com
+api.console.anthropic.com
+a-cdn.claude.ai
 
-## Сервисы Grok / X.ai  
-grok.com  
-assets.grok.com  
-x.ai  
+## OpenAI ChatGPT/GPT (AI сервисы)
+
+openai.com
+chatgpt.com
+chat.openai.com
+platform.openai.com
+api.openai.com
+auth.openai.com
+auth0.openai.com
+beta.openai.com
+ab.chatgpt.com
+android.chat.openai.com
+ios.chat.openai.com
+cdn.oaistatic.com
+oaistatic.com
+files.oaiusercontent.com
+staging-files-eu.oaiusercontent.com
+images.openai.com
+videos.openai.com
+status.openai.com
+supply.openai.com
+sora.chatgpt.com
+sora.com
+sora.openai.com
+tcr9i.chat.openai.com
+webrtc.chatgpt.com
+chatgpt.turn.livekit.cloud
+turn.livekit.cloud
+chat.com
+
+## xAI Grok (AI от Илона Маска)
+
+x.ai
+grok.com
+accounts.x.ai
 api.x.ai
+assets.grok.com
 
-## Тесты IP / утечек  
-2ip.ru  
-myip2.ru  
-addr.tools  
-myip.addr.tools  
-ipify.org  
-browserleaks.com  
+## Google AI сервисы (Bard, Gemini, NotebookLM)
+
+ai.google.dev
+google.dev
+gemini.google.com
+bard.google.com
+aistudio.google.com
+notebooklm.google
+notebooklm.google.com
+makersuite.google.com
+aitestkitchen.withgoogle.com
+generativeai.google
+deepmind.com
+deepmind.google
+labs.google
+jules.google.com
+withgoogle.com
+stitch.withgoogle.com
+csp.withgoogle.com
+
+## Google сервисы и API
+
+accounts.google.com
+apis.google.com
+googleapis.com
+generativelanguage.googleapis.com
+android.apis.google.com
+android.googleapis.com
+apps.googleusercontent.com
+lh3.googleusercontent.com
+www.googletagmanager.com
+maps.googleapis.com
+mtalk.google.com
+myactivity.google.com
+play-fe.googleapis.com
+supl.google.com
+beacons.gcp.gvt2.com
+o.pki.goog
+
+## Google Cloud и специализированные API
+
+aisandbox-pa.googleapis.com
+alkalicore-pa.clients6.google.com
+alkalimakersuite-pa.clients6.google.com
+webchannel-alkalimakersuite-pa.clients6.google.com
+assistant-s3-pa.googleapis.com
+deviceintegritytokens-pa.googleapis.com
+firebaselogging-pa.googleapis.com
+geller-pa.googleapis.com
+geomobileservices-pa.googleapis.com
+ogads-pa.clients6.google.com
+proactivebackend-pa.googleapis.com
+signaler-pa.clients6.google.com
+speechs3proto2-pa.googleapis.com
+waa-pa.clients6.google.com
+## Microsoft сервисы (Copilot, Azure, Office)
+microsoft.com
+microsoft365.com
+copilot.microsoft.com
+login.microsoftonline.com
+live.com
+odc.officeapps.live.com
+mobile.events.data.microsoft.com
+dc.services.visualstudio.com
+
+## ElevenLabs (AI голосовые технологии)
+
+elevenlabs.io
+api.elevenlabs.io
+api.us.elevenlabs.io
+help.elevenlabs.io
+elevenreader.io
+us-central1-xi-labs.cloudfunctions.net
+
+## Notion (платформа для заметок и управления проектами)
+
+notion.new
+notion.site
+exp.notion.so
+www.notion.so
+identity.notion.so
+notion.so
+notion.com
+msgstore.www.notion.so
+calendar.notion.so
+desktop-release.notion-static.com
+http-inputs-notion.splunkcloud.com
+
+## Make.com (автоматизация процессов)
+
+make.com
+www.make.com
+apps.make.com
+developers.make.com
+we.make.com
+status.make.com
+
+## Codeium/Windsurf (AI для программирования)
+
+exafunction.github.io
+windsurf.com
+codeium.com
+api.codeium.com
+unleash.codeium.com
+windsurf.build
+windsurf-stable.codeium.com
+windsurf-stable.codeiumdata.com
+windsurf-telemetry.codeium.com
+docs.windsurf.com
+cdn.logr-ingest.com
+
+## TikTok/ByteDance сервисы
+
+tiktok.com
+vt.tiktok.com
+libraweb-va.tiktok.com
+bytegate-sg.byteintlapi.com
+bytegate.zijieapi.com
+f-p-va.isnssdk.com
+frontier.byteoversea.com
+maliva-mcs.byteoversea.com
+starling-oversea.byteoversea.com
+mon-va.byteoversea.com
+tron-sg.bytelemon.com
+mcs.ctobsnssdk.com
+lf3-static.bytednsdoc.com
+
+## WhatsApp (мессенджер Facebook/Meta)
+
+whatsapp.cc
+whatsapp.com
+whatsapp.info
+whatsapp.net
+whatsapp.tv
+whatsappbrand.com
+whatsapp-plus.info
+whatsapp-plus.me
+whatsapp-plus.net
+wa.me
+graph.whatsapp.com
+mmx-ds.cdn.whatsapp.net
+z-p42-chat-e2ee-ig.facebook.com
+
+## Trae.ai (AI платформа)
+
+www.trae.ai
+api.trae.ai
+telemetry.trae.ai
+api-sg-central.trae.ai
+api-us-east.trae.ai
+trae-api-sg.mchost.guru
+trae-api-us.mchost.guru
+
+## Поисковые системы и браузеры
+
+bing.com
+edgeservices.bing.com
+sydney.bing.com
+rewards.bing.com
+brave.com
+api-dashboard.search.brave.com
+## Инструменты для разработчиков
+api.github.com
+education.github.com
+atlassian.com
+httpbin.org
+rapidapi.com
+
+## Сервисы для определения IP и безопасности
+
+2ip.ru
+myip2.ru
+addr.tools
+myip.addr.tools
+ipify.org
+browserleaks.com
 dnsleaktest.com
 
-## Notion  
-api.sprig.com  
-notion.so  
-gist.build  
-desktop-release.notion-static.com  
-http-inputs-notion.splunkcloud.com  
-consumer.cloud.gist.build
+## Мониторинг и аналитика
 
-## CDN / Инфраструктура / Dev-утилиты  
-akamaitechnologies.com  
-deploy.static.akamaitechnologies.com  
-app.adjust.net.in  
-api.revenuecat.com  
-in.appcenter.ms  
-builds.parsec.app  
-sentry.io  
+sentry.io
+browser-intake-datadoghq.com
+api.sprig.com
+app.adjust.net.in
+in.appcenter.ms
+
+## Медиа и развлечения
+
+canva.com
+loom.com
+www.loom.com
+udemy.com
+blackmagicdesign.com
+cloud.blackmagicdesign.com
+swr.cloud.blackmagicdesign.com
+
+## Игровые сервисы
+
+wbgames.com
+wbinsights.com
+xgpuweb.gssv-play-prod.xboxlive.com
+xgpuwebf2p.gssv-play-prod.xboxlive.com
+xsts.auth.xboxlive.com
+
+## Погодные сервисы
+
+weather.com
+upsx.weather.com
+## CDN и хостинг
+cdntogo.net
+brightdata.com
+api.brightdata.com
+ns1.cloudflare.net
+
+## Другие сервисы
+
 auth0.com
-
-## Прочие популярные сервисы  
-canva.com  
-intel.com  
-web.archive.org  
-z-p42-chat-e2ee-ig.facebook.com  
-api.github.com  
+api.revenuecat.com
+consumer.cloud.gist.build
+gist.build
+glama.ai
+intel.com
+api.imgur.com
+web.archive.org
+default.exp-tas.com
+status.hyperscience.net
