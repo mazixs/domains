@@ -103,7 +103,9 @@ proactivebackend-pa.googleapis.com
 signaler-pa.clients6.google.com
 speechs3proto2-pa.googleapis.com
 waa-pa.clients6.google.com
+
 ## Microsoft сервисы (Copilot, Azure, Office)
+
 microsoft.com
 microsoft365.com
 copilot.microsoft.com
@@ -173,7 +175,6 @@ starling-oversea.byteoversea.com
 mon-va.byteoversea.com
 tron-sg.bytelemon.com
 mcs.ctobsnssdk.com
-lf3-static.bytednsdoc.com
 
 ## WhatsApp (мессенджер Facebook/Meta)
 
@@ -209,12 +210,19 @@ sydney.bing.com
 rewards.bing.com
 brave.com
 api-dashboard.search.brave.com
+
 ## Инструменты для разработчиков
-api.github.com
-education.github.com
+
 atlassian.com
 httpbin.org
 rapidapi.com
+
+## GitHub (платформа для разработчиков)
+
+github.com
+api.github.com
+gist.github.com
+education.github.com
 
 ## Сервисы для определения IP и безопасности
 
@@ -256,7 +264,9 @@ xsts.auth.xboxlive.com
 
 weather.com
 upsx.weather.com
+
 ## CDN и хостинг
+
 cdntogo.net
 brightdata.com
 api.brightdata.com
