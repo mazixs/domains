@@ -246,6 +246,7 @@ m.instagram.com
 upload.instagram.com
 api.instagram.com
 secure.instagram.com
+static.cdninstagram.com
 
 ## Сервисы для определения IP и безопасности
 
