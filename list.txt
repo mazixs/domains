@@ -21,6 +21,7 @@ auth.openai.com
 auth0.openai.com
 beta.openai.com
 ab.chatgpt.com
+operator.chatgpt.com
 android.chat.openai.com
 ios.chat.openai.com
 cdn.oaistatic.com
@@ -59,7 +60,7 @@ deferred-chat.x.ai
 imgen.x.ai
 data.x.ai
 imagine-public.x.ai
-images-public.x.a
+images-public.x.ai
 
 ## Google AI сервисы (Bard, Gemini, NotebookLM)
 
