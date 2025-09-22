@@ -1,17 +1,20 @@
-import socket
 import subprocess
 import sys
 import asyncio
 import contextlib
+import aiodns
 
 async def check_dns(domain):
-    loop = asyncio.get_running_loop()
-    try:
-        # Проверяем DNS (IPv4/IPv6) с таймаутом
-        await asyncio.wait_for(loop.getaddrinfo(domain, None), timeout=3)
-        return True
-    except (socket.gaierror, asyncio.TimeoutError):
-        return False
+    dns_servers = ['1.1.1.1', '8.8.8.8', '9.9.9.9']
+    resolver = aiodns.DNSResolver()
+    for server in dns_servers:
+        resolver.nameservers = [server]
+        try:
+            await resolver.query(domain, 'A')
+            return True  # Если хотя бы один ответил, считаем успешным
+        except aiodns.error.DNSError:
+            continue  # Пробуем следующий сервер
+    return False
 
 async def check_ping(domain):
     try:

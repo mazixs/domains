@@ -42,11 +42,22 @@ chat.com
 
 ## xAI Grok (AI от Илона Маска)
 
-x.ai
 grok.com
+assets.grok.com
+ssff.grok.com
+asia-south1-livekit.grok.com
+livekit.grok.com
+typeahead.grok.com
+www.grok.com
+us-east-1-raw.api.x.ai
+x.ai
 accounts.x.ai
 api.x.ai
-assets.grok.com
+us-west-1-raw.api.x.ai
+status.x.ai
+deferred-chat.x.ai
+imgen.x.ai
+data.x.ai
 
 ## Google AI сервисы (Bard, Gemini, NotebookLM)
 
@@ -223,6 +234,18 @@ github.com
 api.github.com
 gist.github.com
 education.github.com
+
+## Instagram (платформа для социальных сетей)
+
+instagram.com
+www.instagram.com
+trunkstable.instagram.com
+intern.instagram.com
+graph.instagram.com
+m.instagram.com
+upload.instagram.com
+api.instagram.com
+secure.instagram.com
 
 ## Сервисы для определения IP и безопасности
 
