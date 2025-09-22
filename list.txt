@@ -193,6 +193,7 @@ mcs.ctobsnssdk.com
 
 whatsapp.cc
 whatsapp.com
+www.whatsapp.com
 whatsapp.info
 whatsapp.net
 whatsapp.tv
@@ -203,9 +204,11 @@ whatsapp-plus.net
 wa.me
 graph.whatsapp.com
 mmx-ds.cdn.whatsapp.net
+chat.cdn.whatsapp.net
 z-p42-chat-e2ee-ig.facebook.com
 graph.whatsapp.net
 web.whatsapp.com
+g.whatsapp.net
 
 ## Trae.ai (AI платформа)
 
