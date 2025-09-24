@@ -20,6 +20,7 @@ api.openai.com
 auth.openai.com
 auth0.openai.com
 beta.openai.com
+realtime.chatgpt.com
 ab.chatgpt.com
 operator.chatgpt.com
 android.chat.openai.com
