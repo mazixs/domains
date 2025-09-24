@@ -150,8 +150,16 @@ notion.so
 notion.com
 msgstore.www.notion.so
 calendar.notion.so
+calendar-api.notion.so
+calendar-te.notion.so
+msgstore.www.notion.so
 desktop-release.notion-static.com
 http-inputs-notion.splunkcloud.com
+
+## Notion AI (sprig)
+cdn.sprig.com
+api.sprig.com
+sprig.com
 
 ## Make.com (автоматизация процессов)
 
