@@ -33,6 +33,7 @@ ios.chat.openai.com
 cdn.oaistatic.com
 oaistatic.com
 files.oaiusercontent.com
+files09.oaiusercontent.com
 staging-files-eu.oaiusercontent.com
 images.openai.com
 videos.openai.com
