@@ -6,9 +6,14 @@ claude.ai
 www.claude.ai
 staging.claude.ai
 anthropic.com
+www.anthropic.com
 console.anthropic.com
 api.console.anthropic.com
 a-cdn.claude.ai
+statsig.anthropic.com
+a-cdn.anthropic.com
+a-api.anthropic.com
+s-cdn.anthropic.com
 
 ## OpenAI ChatGPT/GPT (AI сервисы)
 
