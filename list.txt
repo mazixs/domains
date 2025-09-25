@@ -229,6 +229,7 @@ g.whatsapp.net
 ## Trae.ai (AI платформа)
 
 www.trae.ai
+trae.ai
 api.trae.ai
 api.trae.cn
 telemetry.trae.ai
