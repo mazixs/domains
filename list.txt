@@ -180,6 +180,7 @@ status.make.com
 
 exafunction.github.io
 windsurf.com
+web-backend.windsurf.com
 codeium.com
 api.codeium.com
 unleash.codeium.com
@@ -199,7 +200,6 @@ bytegate-sg.byteintlapi.com
 bytegate.zijieapi.com
 f-p-va.isnssdk.com
 frontier.byteoversea.com
-maliva-mcs.byteoversea.com
 starling-oversea.byteoversea.com
 mon-va.byteoversea.com
 tron-sg.bytelemon.com
@@ -230,11 +230,19 @@ g.whatsapp.net
 
 www.trae.ai
 api.trae.ai
+api.trae.cn
 telemetry.trae.ai
 api-sg-central.trae.ai
 api-us-east.trae.ai
 trae-api-sg.mchost.guru
 trae-api-us.mchost.guru
+sf16-tcc-tos-sg.byteoversea.com
+sf16-tcc-tos-va.byteoversea.com
+sf16-short-va.bytedapm.com
+lf-c-flwb.bytetos.com
+lf-cdn.trae.ai
+mssdk.bytedance.com
+maliva-mcs.byteoversea.com
 
 ## Поисковые системы и браузеры
 
