@@ -19,6 +19,13 @@ s-cdn.anthropic.com
 
 openai.com
 chatgpt.com
+ws.chatgpt.com
+api.chatgpt.com
+wwww.chatgpt.com
+realtime.chatgpt.com
+search.chatgpt.com
+privacy-pass-issuer.api.chatgpt.com
+hooks-staging.chatgpt.com
 chat.openai.com
 platform.openai.com
 api.openai.com
