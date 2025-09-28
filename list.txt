@@ -29,6 +29,11 @@ chat.openai.com
 platform.openai.com
 api.openai.com
 auth.openai.com
+cdn.openai.com
+help-center-cdn.oaistatic.com
+help.openai.com
+cdn.platform.openai.com
+support-automation.openai.com
 auth0.openai.com
 beta.openai.com
 realtime.chatgpt.com
