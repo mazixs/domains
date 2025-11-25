@@ -15,6 +15,8 @@ a-cdn.anthropic.com
 a-api.anthropic.com
 s-cdn.anthropic.com
 a.claude.ai
+servd-anthropic-website.b-cdn.net
+claude.com
 
 ## OpenAI ChatGPT/GPT (AI сервисы)
 
@@ -37,7 +39,6 @@ cdn.platform.openai.com
 support-automation.openai.com
 auth0.openai.com
 beta.openai.com
-realtime.chatgpt.com
 ab.chatgpt.com
 operator.chatgpt.com
 android.chat.openai.com
@@ -59,6 +60,11 @@ webrtc.chatgpt.com
 chatgpt.turn.livekit.cloud
 turn.livekit.cloud
 chat.com
+openai.com.cdn.cloudflare.net
+openaiapi-site.azureedge.net
+openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+openaicomproductionae4b.blob.core.windows.net
+production-openaicom-storage.azureedge.net
 
 ## xAI Grok (AI от Илона Маска)
 
@@ -67,7 +73,6 @@ assets.grok.com
 ssff.grok.com
 asia-south1-livekit.grok.com
 livekit.grok.com
-typeahead.grok.com
 www.grok.com
 us-east-1-raw.api.x.ai
 x.ai
@@ -170,14 +175,13 @@ msgstore.www.notion.so
 calendar.notion.so
 calendar-api.notion.so
 calendar-te.notion.so
-msgstore.www.notion.so
 desktop-release.notion-static.com
 http-inputs-notion.splunkcloud.com
-msgstore-002.www.notion.so
-o324374.ingest.sentry.io
 cdn.sprig.com
 api.sprig.com
 sprig.com
+api.notion.com
+img.notionusercontent.com
 
 ## Make.com (автоматизация процессов)
 
@@ -277,6 +281,23 @@ lf-c-flwb.bytetos.com
 lf-cdn.trae.ai
 mssdk.bytedance.com
 maliva-mcs.byteoversea.com
+tiktok.com
+vt.tiktok.com
+libraweb-va.tiktok.com
+bytegate-sg.byteintlapi.com
+bytegate.zijieapi.com
+f-p-va.isnssdk.com
+frontier.byteoversea.com
+starling-oversea.byteoversea.com
+mon-va.byteoversea.com
+tron-sg.bytelemon.com
+mcs.ctobsnssdk.com
+libraweb-sg.tiktok.com
+doudou.com
+marscode.cn
+mcdemo.show
+trae.cn
+trae.com.cn
 
 ## Поисковые системы и браузеры
 
@@ -321,6 +342,72 @@ scontent-cdg4-3.cdninstagram.com
 static.cdninstagram.com
 instagram.fpat3-1.fna.fbcdn.net
 scontent-ams2-1.cdninstagram.com
+achat-followers-instagram.com
+acheter-followers-instagram.com
+acheterdesfollowersinstagram.com
+acheterfollowersinstagram.com
+bookstagram.com
+carstagram.com
+chickstagram.com
+ig.me
+imstagram.com
+imtagram.com
+instaadder.com
+instachecker.com
+instafallow.com
+instafollower.com
+instagainer.com
+instagda.com
+instagify.com
+instagmania.com
+instagor.com
+instagram-brand.com
+instagram-engineering.com
+instagram-help.com
+instagram-press.com
+instagram-press.net
+instagramci.com
+instagramcn.com
+instagramdi.com
+instagramhashtags.net
+instagramhilecim.com
+instagramhilesi.org
+instagramium.com
+instagramizlenme.com
+instagramkusu.com
+instagramlogin.com
+instagramm.com
+instagramn.com
+instagrampartners.com
+instagramphoto.com
+instagramq.com
+instagramsepeti.com
+instagramtakipcisatinal.net
+instagramtakiphilesi.com
+instagramtips.com
+instagramtr.com
+instagran.com
+instagranm.com
+instagrem.com
+instagrm.com
+instagtram.com
+instagy.com
+instamgram.com
+instangram.com
+instanttelegram.com
+instaplayer.net
+instastyle.tv
+instgram.com
+intagram.com
+intagrm.com
+intgram.com
+kingstagram.com
+lnstagram-help.com
+oninstagram.com
+online-instagram.com
+onlineinstagram.com
+web-instagram.net
+wwwinstagram.com
 
 ## Сервисы для определения IP и безопасности
 
@@ -336,7 +423,6 @@ dnsleaktest.com
 
 sentry.io
 browser-intake-datadoghq.com
-api.sprig.com
 app.adjust.net.in
 in.appcenter.ms
 
@@ -380,8 +466,6 @@ static.voidboost.com
 stream.voidboost.cc
 pulse.stream.voidboost.cc
 clarity.ms
-voidboost.com
-voidboost.cc
 
 ## Другие сервисы
 
