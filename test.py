@@ -342,5 +342,9 @@ def remove_dead_domains(file_path: str, dead: list[tuple[str, dict]]) -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\nПроверка прервана пользователем.")
+        sys.exit(0)
 
