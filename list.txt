@@ -182,10 +182,10 @@ az416426.vo.msecnd.net
 browser.events.data.microsoft.com
 c.bing.com
 c1.microsoft.com
-copilot.microsoft.com
 eu-mobile.events.data.microsoft.com
 o4508134825000960.ingest.us.sentry.io
 studiostaticassetsprod.azureedge.net
+bat.bing.com
 
 ## ElevenLabs (AI голосовые технологии)
 
