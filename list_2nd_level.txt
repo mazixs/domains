@@ -1,0 +1,284 @@
+# Список доменов по сервисам
+
+## Anthropic Claude (AI ассистент)
+
+claude.ai
+anthropic.com
+claude.com
+claudeusercontent.com
+claudemcpclient.com
+
+## OpenAI ChatGPT/GPT (AI сервисы)
+
+openai.com
+chatgpt.com
+oaistatic.com
+sora.com
+chat.com
+oaiusercontent.com
+
+## xAI Grok (AI от Илона Маска)
+
+grok.com
+x.ai
+grokusercontent.com
+
+## Discord
+
+cloudflare-ech.com
+dis.gd
+discord.app
+discord.co
+discord.com
+discord.design
+discord.dev
+discord.gift
+discord.gifts
+discord.gg
+discord.media
+discord.new
+discord.store
+discord-activities.com
+discordactivities.com
+discordapp.com
+discordapp.net
+discordcdn.com
+discordmerch.com
+discordpartygames.com
+discordsays.com
+discordsez.com
+
+## Google AI сервисы (Bard, Gemini, NotebookLM)
+
+google.dev
+notebooklm.google
+generativeai.google
+deepmind.com
+deepmind.google
+labs.google
+withgoogle.com
+googleapis.com
+google.com
+gemini.google
+jules.google
+
+## Microsoft Copilot
+
+live.com
+
+## ElevenLabs (AI голосовые технологии)
+
+elevenlabs.io
+elevenreader.io
+
+## Notion (платформа для заметок и управления проектами)
+
+notion.new
+notion.site
+notion.so
+notion.com
+sprig.com
+notion-static.com
+notionusercontent.com
+
+## Make.com (автоматизация процессов)
+
+make.com
+
+## Codeium/Windsurf (AI для программирования)
+
+windsurf.com
+codeium.com
+windsurf.build
+
+## TikTok/ByteDance сервисы
+
+tiktok.com
+
+## WhatsApp (мессенджер Facebook/Meta)
+
+whatsapp.cc
+whatsapp.com
+whatsapp.info
+whatsapp.net
+whatsapp.tv
+whatsappbrand.com
+whatsapp-plus.info
+whatsapp-plus.me
+whatsapp-plus.net
+wa.me
+
+## Trae.ai (AI платформа)
+
+trae.ai
+tiktok.com
+doudou.com
+marscode.cn
+marscode.com.cn
+mcbaas.work
+mcdemo.show
+mchost.guru
+mcprev.cn
+tcwqqdy.guru
+trae.cn
+trae.com.cn
+trae.guru
+yoma.cn
+
+## Поисковые системы и браузеры
+
+bing.com
+brave.com
+
+## Инструменты для разработчиков
+
+atlassian.com
+httpbin.org
+rapidapi.com
+
+## GitHub (платформа для разработчиков)
+
+github.com
+
+## Instagram (платформа для социальных сетей)
+
+instagram.com
+facebook.com
+fbcdn.net
+achat-followers-instagram.com
+acheter-followers-instagram.com
+acheterdesfollowersinstagram.com
+acheterfollowersinstagram.com
+bookstagram.com
+carstagram.com
+cdninstagram.com
+chickstagram.com
+ig.me
+igsonar.com
+imstagram.com
+imtagram.com
+instaadder.com
+instachecker.com
+instafallow.com
+instafollower.com
+instagainer.com
+instagda.com
+instagify.com
+instagmania.com
+instagor.com
+instagram-brand.com
+instagram-engineering.com
+instagram-help.com
+instagram-press.com
+instagram-press.net
+instagramci.com
+instagramcn.com
+instagramdi.com
+instagramhashtags.net
+instagramhilecim.com
+instagramhilesi.org
+instagramium.com
+instagramizlenme.com
+instagramkusu.com
+instagramlogin.com
+instagramm.com
+instagramn.com
+instagrampartners.com
+instagramphoto.com
+instagramq.com
+instagramsepeti.com
+instagramtakipcisatinal.net
+instagramtakiphilesi.com
+instagramtips.com
+instagramtr.com
+instagran.com
+instagranm.com
+instagrem.com
+instagrm.com
+instagtram.com
+instagy.com
+instamgram.com
+instangram.com
+instanttelegram.com
+instaplayer.net
+instastyle.tv
+instgram.com
+intagram.com
+intagrm.com
+intgram.com
+kingstagram.com
+lnstagram-help.com
+oninstagram.com
+online-instagram.com
+onlineinstagram.com
+web-instagram.net
+wwwinstagram.com
+
+## Сервисы для определения IP и безопасности
+
+2ip.ru
+myip2.ru
+addr.tools
+ipify.org
+browserleaks.com
+dnsleaktest.com
+
+## Мониторинг и аналитика
+
+sentry.io
+browser-intake-datadoghq.com
+
+## Медиа и развлечения
+
+canva.com
+loom.com
+udemy.com
+blackmagicdesign.com
+
+## Игровые сервисы
+
+wbgames.com
+wbinsights.com
+
+## Погодные сервисы
+
+weather.com
+
+## CDN и хостинг
+
+cdntogo.net
+brightdata.com
+
+## hdrezka
+hdrezka.ag
+hdrezka.site
+clarity.ms
+voidboost.com
+voidboost.cc
+
+## Telegram
+t.me
+telegram.me
+cdn-telegram.org
+comments.app
+contest.com
+fragment.com
+graph.org
+quiz.directory
+tdesktop.com
+telega.one
+telegra.ph
+telegram.dog
+telegram.org
+telegram.space
+telesco.pe
+tg.dev
+tx.me
+usercontent.dev
+
+## Другие сервисы
+
+auth0.com
+gist.build
+glama.ai
+intel.com
