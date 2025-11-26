@@ -4,6 +4,7 @@
 
 claude.ai
 anthropic.com
+b-cdn.net
 claude.com
 claudeusercontent.com
 claudemcpclient.com
@@ -13,9 +14,14 @@ claudemcpclient.com
 openai.com
 chatgpt.com
 oaistatic.com
-sora.com
-chat.com
 oaiusercontent.com
+sora.com
+livekit.cloud
+chat.com
+cloudflare.net
+azureedge.net
+azurefd.net
+windows.net
 
 ## xAI Grok (AI от Илона Маска)
 
@@ -27,6 +33,7 @@ grokusercontent.com
 
 cloudflare-ech.com
 dis.gd
+googleapis.com
 discord.app
 discord.co
 discord.com
@@ -47,29 +54,41 @@ discordmerch.com
 discordpartygames.com
 discordsays.com
 discordsez.com
+localizeapi.com
+website-files.com
 
 ## Google AI сервисы (Bard, Gemini, NotebookLM)
 
 google.dev
+google.com
 notebooklm.google
+withgoogle.com
 generativeai.google
 deepmind.com
 deepmind.google
 labs.google
-withgoogle.com
-googleapis.com
-google.com
+googletagmanager.com
+pki.goog
+gstatic.com
+googleusercontent.com
 gemini.google
 jules.google
 
 ## Microsoft Copilot
 
+microsoft.com
+microsoftonline.com
 live.com
+visualstudio.com
+msecnd.net
+bing.com
+sentry.io
 
 ## ElevenLabs (AI голосовые технологии)
 
 elevenlabs.io
 elevenreader.io
+cloudfunctions.net
 
 ## Notion (платформа для заметок и управления проектами)
 
@@ -77,8 +96,9 @@ notion.new
 notion.site
 notion.so
 notion.com
-sprig.com
 notion-static.com
+splunkcloud.com
+sprig.com
 notionusercontent.com
 
 ## Make.com (автоматизация процессов)
@@ -87,13 +107,22 @@ make.com
 
 ## Codeium/Windsurf (AI для программирования)
 
+github.io
 windsurf.com
 codeium.com
 windsurf.build
+codeiumdata.com
+logr-ingest.com
 
 ## TikTok/ByteDance сервисы
 
 tiktok.com
+byteintlapi.com
+zijieapi.com
+isnssdk.com
+byteoversea.com
+bytelemon.com
+ctobsnssdk.com
 
 ## WhatsApp (мессенджер Facebook/Meta)
 
@@ -107,27 +136,29 @@ whatsapp-plus.info
 whatsapp-plus.me
 whatsapp-plus.net
 wa.me
+facebook.com
 
 ## Trae.ai (AI платформа)
 
 trae.ai
-tiktok.com
+trae.cn
+mchost.guru
+bytedapm.com
+bytetos.com
+bytedance.com
 doudou.com
 marscode.cn
 marscode.com.cn
 mcbaas.work
 mcdemo.show
-mchost.guru
 mcprev.cn
 tcwqqdy.guru
-trae.cn
 trae.com.cn
 trae.guru
 yoma.cn
 
 ## Поисковые системы и браузеры
 
-bing.com
 brave.com
 
 ## Инструменты для разработчиков
@@ -143,15 +174,14 @@ github.com
 ## Instagram (платформа для социальных сетей)
 
 instagram.com
-facebook.com
 fbcdn.net
+cdninstagram.com
 achat-followers-instagram.com
 acheter-followers-instagram.com
 acheterdesfollowersinstagram.com
 acheterfollowersinstagram.com
 bookstagram.com
 carstagram.com
-cdninstagram.com
 chickstagram.com
 ig.me
 igsonar.com
@@ -225,8 +255,9 @@ dnsleaktest.com
 
 ## Мониторинг и аналитика
 
-sentry.io
 browser-intake-datadoghq.com
+adjust.net.in
+appcenter.ms
 
 ## Медиа и развлечения
 
@@ -239,6 +270,7 @@ blackmagicdesign.com
 
 wbgames.com
 wbinsights.com
+xboxlive.com
 
 ## Погодные сервисы
 
@@ -250,15 +282,21 @@ cdntogo.net
 brightdata.com
 
 ## hdrezka
+
 hdrezka.ag
 hdrezka.site
-clarity.ms
+jsdelivr.net
+s2517.com
+hdrezka.ac
 voidboost.com
 voidboost.cc
+clarity.ms
 
 ## Telegram
+
 t.me
 telegram.me
+telegram.org
 cdn-telegram.org
 comments.app
 contest.com
@@ -269,7 +307,6 @@ tdesktop.com
 telega.one
 telegra.ph
 telegram.dog
-telegram.org
 telegram.space
 telesco.pe
 tg.dev
@@ -279,6 +316,11 @@ usercontent.dev
 ## Другие сервисы
 
 auth0.com
+revenuecat.com
 gist.build
 glama.ai
 intel.com
+imgur.com
+archive.org
+exp-tas.com
+hyperscience.net

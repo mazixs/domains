@@ -502,6 +502,7 @@ api.brightdata.com
 ns1.cloudflare.net
 
 ## hdrezka
+
 hdrezka.ag
 hdrezka.site
 cdn.jsdelivr.net
@@ -515,6 +516,7 @@ voidboost.com
 voidboost.cc
 
 ## Telegram
+
 t.me
 telegram.me
 web.telegram.org

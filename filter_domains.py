@@ -2,13 +2,11 @@ import tldextract
 
 def filter_domains(input_file, output_file):
     """
-    Reads list.txt and filters out domains that are 3rd level or deeper.
-    Keeps 2nd level domains (e.g. example.com, google.co.uk).
-    Preserves comments and file structure.
+    Reads list.txt and extracts base 2nd level domains.
+    Transforms subdomains (e.g., 'sub.example.com') into 'example.com'.
+    Preserves comments and structure, but removes duplicates per section.
     """
     
-    # Initialize tldextract (it might download the suffix list)
-    # We trust the default cache location.
     extract = tldextract.TLDExtract(include_psl_private_domains=False)
 
     try:
@@ -18,9 +16,19 @@ def filter_domains(input_file, output_file):
         print(f"Error: File {input_file} not found.")
         return
 
+    # We need to track unique domains we've already written to avoid duplicates.
+    # Since we want to preserve structure (headers/comments), we can't just set() everything.
+    # Strategy:
+    # - Read lines sequentially.
+    # - If comment/empty: Write immediately.
+    # - If domain: Extract 2nd level. If we haven't seen this 2nd level domain yet (globally or per block? Globally is safer for router configs), write it.
+    # But router configs often group by service. Let's assume global uniqueness is better to avoid duplicate rules.
+    
+    seen_domains = set()
+    
     with open(output_file, 'w', encoding='utf-8') as f_out:
         processed_count = 0
-        kept_count = 0
+        written_count = 0
         
         for line in lines:
             original_line = line
@@ -31,36 +39,44 @@ def filter_domains(input_file, output_file):
                 f_out.write(original_line)
                 continue
             
-            # Check if it's a domain
             processed_count += 1
             try:
                 ext = extract(stripped)
                 
-                # Check for IP address (tldextract returns empty suffix/domain sometimes or puts it in domain)
-                # For 1.1.1.1: domain='1.1.1.1', suffix='', subdomain=''
-                # So it satisfies 'not ext.subdomain'.
-                
-                if not ext.subdomain:
-                    # It is 2nd level (or TLD+1) or IP
-                    f_out.write(original_line)
-                    kept_count += 1
+                if ext.domain and ext.suffix:
+                    # It's a domain name (e.g. google.com, sub.google.co.uk)
+                    # Reconstruct only the registered domain: domain + . + suffix
+                    base_domain = f"{ext.domain}.{ext.suffix}"
+                    
+                    if base_domain not in seen_domains:
+                        f_out.write(f"{base_domain}\n")
+                        seen_domains.add(base_domain)
+                        written_count += 1
+                elif not ext.domain and not ext.suffix and stripped:
+                     # Probably an IP address or something tldextract couldn't parse as a domain
+                     # Keep it as is if unique
+                     if stripped not in seen_domains:
+                         f_out.write(f"{stripped}\n")
+                         seen_domains.add(stripped)
+                         written_count += 1
                 else:
-                    # It has a subdomain, skip (e.g. www.google.com)
-                    pass
+                    # Weird case, maybe just suffix or just domain? 
+                    # fallback to original line if unique
+                    if stripped not in seen_domains:
+                         f_out.write(f"{stripped}\n")
+                         seen_domains.add(stripped)
+                         written_count += 1
                     
             except Exception as e:
-                # In case of weird parsing error, maybe keep it or log?
-                # We'll assume keep to be safe, or skip?
-                # If it fails to parse, it's likely not a valid domain, but let's print and skip
                 print(f"Warning: Could not parse '{stripped}': {e}")
 
-    print(f"Processed {processed_count} domains.")
-    print(f"Kept {kept_count} 2nd-level domains.")
+    print(f"Processed {processed_count} entries.")
+    print(f"Extracted {written_count} unique 2nd-level domains.")
     print(f"Output written to {output_file}")
 
 if __name__ == "__main__":
     input_path = "list.txt"
     output_path = "list_2nd_level.txt"
     
-    print(f"Filtering domains from {input_path}...")
+    print(f"Extracting 2nd level domains from {input_path}...")
     filter_domains(input_path, output_path)
