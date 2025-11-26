@@ -341,6 +341,12 @@ trae.cn
 trae.com.cn
 trae.guru
 yoma.cn
+bat.bing.com
+lf-headquarters-speed.yhgfb-cn-static.com
+sf16-short-sg.bytedapm.com
+static.ads-twitter.com
+unpkg.com
+byteoversea.com
 
 ## Поисковые системы и браузеры
 
