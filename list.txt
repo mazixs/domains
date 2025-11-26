@@ -17,6 +17,8 @@ s-cdn.anthropic.com
 a.claude.ai
 servd-anthropic-website.b-cdn.net
 claude.com
+claudeusercontent.com
+claudemcpclient.com
 
 ## OpenAI ChatGPT/GPT (AI сервисы)
 
@@ -46,8 +48,13 @@ ios.chat.openai.com
 cdn.oaistatic.com
 oaistatic.com
 files.oaiusercontent.com
+sdmntprnorthcentralus.oaiusercontent.com
+sdmntprwestus2.oaiusercontent.com
+sdmntci.oaiusercontent.com
 files09.oaiusercontent.com
 staging-files-eu.oaiusercontent.com
+files-eu.oaiusercontent.com
+web-sandbox.oaiusercontent.com
 images.openai.com
 videos.openai.com
 status.openai.com
@@ -60,6 +67,8 @@ webrtc.chatgpt.com
 chatgpt.turn.livekit.cloud
 turn.livekit.cloud
 chat.com
+oaiusercontent.com
+staging-files.oaiusercontent.com
 openai.com.cdn.cloudflare.net
 openaiapi-site.azureedge.net
 openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -85,6 +94,37 @@ imgen.x.ai
 data.x.ai
 imagine-public.x.ai
 images-public.x.ai
+auth.grokusercontent.com
+grokusercontent.com
+
+## Discord
+
+cloudflare-ech.com
+dis.gd
+discord-attachments-uploads-prd.storage.googleapis.com
+discord.app
+discord.co
+discord.com
+discord.design
+discord.dev
+discord.gift
+discord.gifts
+discord.gg
+discord.media
+discord.new
+discord.store
+discord-activities.com
+discordactivities.com
+discordapp.com
+discordapp.net
+discordcdn.com
+discordmerch.com
+discordpartygames.com
+discordsays.com
+discordsez.com
+cdn.discordapp.com
+cdn.localizeapi.com
+cdn.prod.website-files.com
 
 ## Google AI сервисы (Bard, Gemini, NotebookLM)
 
@@ -105,42 +145,30 @@ jules.google.com
 withgoogle.com
 stitch.withgoogle.com
 csp.withgoogle.com
-
-## Google сервисы и API
-
+generativelanguage.googleapis.com
+aisandbox-pa.googleapis.com
+www.googletagmanager.com
+ogads-pa.clients6.google.com
+signaler-pa.clients6.google.com
+webchannel-alkalimakersuite-pa.clients6.google.com
+waa-pa.clients6.google.com
+alkalimakersuite-pa.clients6.google.com
+assistant-s3-pa.googleapis.com
+proactivebackend-pa.googleapis.com
+o.pki.goog
+googleapis.com
 accounts.google.com
 apis.google.com
-googleapis.com
-generativelanguage.googleapis.com
-android.apis.google.com
-android.googleapis.com
-apps.googleusercontent.com
+fonts.gstatic.com
 lh3.googleusercontent.com
-www.googletagmanager.com
-maps.googleapis.com
-mtalk.google.com
-myactivity.google.com
-play-fe.googleapis.com
-supl.google.com
-beacons.gcp.gvt2.com
-o.pki.goog
-
-## Google Cloud и специализированные API
-
-aisandbox-pa.googleapis.com
-alkalicore-pa.clients6.google.com
-alkalimakersuite-pa.clients6.google.com
-webchannel-alkalimakersuite-pa.clients6.google.com
-assistant-s3-pa.googleapis.com
-deviceintegritytokens-pa.googleapis.com
-firebaselogging-pa.googleapis.com
+play.google.com
+google.com
 geller-pa.googleapis.com
-geomobileservices-pa.googleapis.com
-ogads-pa.clients6.google.com
-proactivebackend-pa.googleapis.com
-signaler-pa.clients6.google.com
-speechs3proto2-pa.googleapis.com
-waa-pa.clients6.google.com
+robinfrontend-pa.googleapis.com
+alkalicore-pa.clients6.google.com
+gemini.google
+jules.google
+aida.googleapis.com
 
 ## Microsoft сервисы (Copilot, Azure, Office)
 
@@ -182,6 +210,8 @@ api.sprig.com
 sprig.com
 api.notion.com
 img.notionusercontent.com
+notion-static.com
+notionusercontent.com
 
 ## Make.com (автоматизация процессов)
 
@@ -295,9 +325,16 @@ mcs.ctobsnssdk.com
 libraweb-sg.tiktok.com
 doudou.com
 marscode.cn
+marscode.com.cn
+mcbaas.work
 mcdemo.show
+mchost.guru
+mcprev.cn
+tcwqqdy.guru
 trae.cn
 trae.com.cn
+trae.guru
+yoma.cn
 
 ## Поисковые системы и браузеры
 
@@ -348,8 +385,10 @@ acheterdesfollowersinstagram.com
 acheterfollowersinstagram.com
 bookstagram.com
 carstagram.com
+cdninstagram.com
 chickstagram.com
 ig.me
+igsonar.com
 imstagram.com
 imtagram.com
 instaadder.com
@@ -466,6 +505,8 @@ static.voidboost.com
 stream.voidboost.cc
 pulse.stream.voidboost.cc
 clarity.ms
+voidboost.com
+voidboost.cc
 
 ## Другие сервисы
 

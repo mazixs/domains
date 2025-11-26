@@ -12,10 +12,10 @@ from typing import Callable
 
 # Константы
 DNS_SERVERS = ('1.1.1.1', '8.8.8.8', '9.9.9.9')
-DNS_TIMEOUT = 5.0
-PING_TIMEOUT = 3.0
-HTTP_TIMEOUT = 5.0
-TCP_TIMEOUT = 3.0
+DNS_TIMEOUT = 10.0
+PING_TIMEOUT = 5.0
+HTTP_TIMEOUT = 10.0
+TCP_TIMEOUT = 5.0
 DEFAULT_CONCURRENCY = 30
 
 
@@ -23,13 +23,14 @@ async def check_dns(domain: str, timeout: float = DNS_TIMEOUT, retries: int = 2)
     """
     Проверяет DNS-резолв домена через несколько серверов.
     Возвращает (success, ip_address).
-    При неудаче делает retry.
+    Если A-запись не найдена, проверяет SOA (чтобы не удалять корневые домены типа oaiusercontent.com).
     """
     for attempt in range(retries):
         resolver = aiodns.DNSResolver()
         for server in DNS_SERVERS:
             resolver.nameservers = [server]
             try:
+                # Попытка 1: Ищем A-запись (IPv4)
                 result = await asyncio.wait_for(
                     resolver.query(domain, 'A'),
                     timeout=timeout
@@ -37,10 +38,22 @@ async def check_dns(domain: str, timeout: float = DNS_TIMEOUT, retries: int = 2)
                 if result:
                     return True, result[0].host
             except (aiodns.error.DNSError, asyncio.TimeoutError):
-                continue
-        # Небольшая пауза перед retry
+                # Если A-записи нет, проверяем SOA (существует ли зона вообще)
+                # Делаем это только на последней попытке или если ошибка явная (NODATA)
+                try:
+                    await asyncio.wait_for(
+                        resolver.query(domain, 'SOA'),
+                        timeout=timeout
+                    )
+                    # Зона существует, но нет A-записи (нормально для CDN/Service roots)
+                    return True, None
+                except (aiodns.error.DNSError, asyncio.TimeoutError):
+                    continue
+                    
+        # Небольшая пауза перед retry (если сервер вообще не ответил)
         if attempt < retries - 1:
             await asyncio.sleep(0.5)
+            
     return False, None
 
 
@@ -139,10 +152,8 @@ async def check_domain(
     Проверяет домен по четырём критериям: DNS → HTTP → TCP → Ping.
     
     Логика:
-    1. DNS резолвится? → Если нет, домен точно мёртв
-    2. HTTP отвечает? → Если да, домен живой
-    3. TCP порт 443/80 открыт? → Сервер слушает (даже если HTTP не отвечает)
-    4. Ping работает? → Последний fallback
+    - Живой, если работает ХОТЯ БЫ ОДИН метод (DNS или HTTP или TCP или Ping).
+    - Мёртвый, если не работает НИЧЕГО.
     
     Возвращает (domain, is_alive, details).
     """
@@ -150,30 +161,28 @@ async def check_domain(
         details = {'dns': False, 'http': False, 'tcp': False, 'ping': False}
         
         try:
-            # Шаг 1: DNS — обязательная проверка (получаем IP)
+            # Шаг 1: DNS
             dns_ok, ip_address = await check_dns(domain)
             details['dns'] = dns_ok
-            if not dns_ok:
-                return domain, False, details
             
-            # Шаг 2: HTTP — основной индикатор
-            if use_http:
+            # Шаг 2: HTTP (только если DNS ок, так эффективнее)
+            if dns_ok and use_http:
                 details['http'] = await check_http(domain)
-                if details['http']:
-                    return domain, True, details
             
-            # Шаг 3: TCP — проверка портов по IP (обходим системный DNS)
+            # Шаг 3: TCP (только если есть IP)
             if ip_address:
                 for port in (443, 80):
                     if await check_tcp_port(ip_address, port):
                         details['tcp'] = True
-                        return domain, True, details
+                        break
             
-            # Шаг 4: Ping — последний fallback (по IP)
+            # Шаг 4: Ping (как последний шанс, даже если DNS провалился)
             target = ip_address if ip_address else domain
             details['ping'] = await check_ping(target)
             
-            is_alive = details['ping']
+            # Итоговое решение: жив, если хоть что-то сработало
+            is_alive = details['dns'] or details['http'] or details['tcp'] or details['ping']
+            
             return domain, is_alive, details
             
         except Exception:
