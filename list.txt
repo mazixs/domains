@@ -514,6 +514,27 @@ clarity.ms
 voidboost.com
 voidboost.cc
 
+## Telegram
+t.me
+telegram.me
+web.telegram.org
+cdn-telegram.org
+comments.app
+contest.com
+fragment.com
+graph.org
+quiz.directory
+tdesktop.com
+telega.one
+telegra.ph
+telegram.dog
+telegram.org
+telegram.space
+telesco.pe
+tg.dev
+tx.me
+usercontent.dev
+
 ## Другие сервисы
 
 auth0.com
