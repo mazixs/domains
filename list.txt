@@ -170,7 +170,7 @@ gemini.google
 jules.google
 aida.googleapis.com
 
-## Microsoft сервисы (Copilot, Azure, Office)
+## Microsoft Copilot
 
 copilot.microsoft.com
 login.microsoftonline.com
