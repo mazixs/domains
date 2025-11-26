@@ -172,14 +172,20 @@ aida.googleapis.com
 
 ## Microsoft сервисы (Copilot, Azure, Office)
 
-microsoft.com
-microsoft365.com
 copilot.microsoft.com
 login.microsoftonline.com
 live.com
 odc.officeapps.live.com
 mobile.events.data.microsoft.com
 dc.services.visualstudio.com
+az416426.vo.msecnd.net
+browser.events.data.microsoft.com
+c.bing.com
+c1.microsoft.com
+copilot.microsoft.com
+eu-mobile.events.data.microsoft.com
+o4508134825000960.ingest.us.sentry.io
+studiostaticassetsprod.azureedge.net
 
 ## ElevenLabs (AI голосовые технологии)
 
