@@ -126,49 +126,54 @@ cdn.discordapp.com
 cdn.localizeapi.com
 cdn.prod.website-files.com
 
-## Google AI сервисы (Bard, Gemini, NotebookLM)
+## Google (Bard, Gemini, NotebookLM, Docs, Drive, Play)
 
+accounts.google.com
 ai.google.dev
-google.dev
-gemini.google.com
-bard.google.com
+aida.googleapis.com
+aisandbox-pa.googleapis.com
 aistudio.google.com
-notebooklm.google
-notebooklm.google.com
-makersuite.google.com
 aitestkitchen.withgoogle.com
-generativeai.google
+alkalicore-pa.clients6.google.com
+alkalimakersuite-pa.clients6.google.com
+apis.google.com
+assistant-s3-pa.googleapis.com
+bard.google.com
+csp.withgoogle.com
 deepmind.com
 deepmind.google
-labs.google
-jules.google.com
-withgoogle.com
-stitch.withgoogle.com
-csp.withgoogle.com
-generativelanguage.googleapis.com
-aisandbox-pa.googleapis.com
-www.googletagmanager.com
-ogads-pa.clients6.google.com
-signaler-pa.clients6.google.com
-webchannel-alkalimakersuite-pa.clients6.google.com
-waa-pa.clients6.google.com
-alkalimakersuite-pa.clients6.google.com
-assistant-s3-pa.googleapis.com
-proactivebackend-pa.googleapis.com
-o.pki.goog
-googleapis.com
-accounts.google.com
-apis.google.com
+docs.google.com
+drive-thirdparty.googleusercontent.com
+drive.google.com
 fonts.gstatic.com
-lh3.googleusercontent.com
-play.google.com
-google.com
 geller-pa.googleapis.com
-robinfrontend-pa.googleapis.com
-alkalicore-pa.clients6.google.com
 gemini.google
+gemini.google.com
+generativeai.google
+generativelanguage.googleapis.com
+google-analytics.com
+google.dev
+googleads.g.doubleclick.net
+googleapis.com
 jules.google
-aida.googleapis.com
+jules.google.com
+labs.google
+lh3.googleusercontent.com
+makersuite.google.com
+notebooklm.google
+notebooklm.google.com
+o.pki.goog
+ogads-pa.clients6.google.com
+play.google.com
+proactivebackend-pa.googleapis.com
+region1.google-analytics.com
+robinfrontend-pa.googleapis.com
+signaler-pa.clients6.google.com
+stitch.withgoogle.com
+waa-pa.clients6.google.com
+webchannel-alkalimakersuite-pa.clients6.google.com
+withgoogle.com
+www.googletagmanager.com
 
 ## Microsoft Copilot
 
@@ -198,26 +203,27 @@ us-central1-xi-labs.cloudfunctions.net
 
 ## Notion (платформа для заметок и управления проектами)
 
-notion.new
-notion.site
-exp.notion.so
-www.notion.so
-identity.notion.so
-notion.so
-notion.com
-msgstore.www.notion.so
-calendar.notion.so
+api.notion.com
+api.sprig.com
 calendar-api.notion.so
 calendar-te.notion.so
-desktop-release.notion-static.com
-http-inputs-notion.splunkcloud.com
+calendar.notion.so
 cdn.sprig.com
-api.sprig.com
-sprig.com
-api.notion.com
+desktop-release.notion-static.com
+exp.notion.so
+http-inputs-notion.splunkcloud.com
+identity.notion.so
 img.notionusercontent.com
+msgstore.www.notion.so
 notion-static.com
+notion.com
+notion.new
+notion.site
+notion.so
 notionusercontent.com
+splunkcloud.com
+sprig.com
+www.notion.so
 
 ## Make.com (автоматизация процессов)
 
@@ -230,34 +236,37 @@ status.make.com
 
 ## Codeium/Windsurf (AI для программирования)
 
-exafunction.github.io
-windsurf.com
-www.windsurf.com
-status.windsurf.com
-register.windsurf.com
-eu-staging.windsurf.com
-eu.windsurf.com
-server.self-serve.windsurf.com
-server.enterprise.windsurf.com
 analytics.windsurf.com
-trust.windsurf.com
-help.windsurf.com
-docs.windsurf.com
-browser.windsurf.com
-login.windsurf.com
-marketplace.windsurf.com
-web-backend.windsurf.com
-codeium.com
 api.codeium.com
 auth.codeium.com
+browser.windsurf.com
+cdn.logr-ingest.com
+codeium.com
+docs.windsurf.com
+eu-staging.windsurf.com
+eu.windsurf.com
+exafunction.github.io
+help.windsurf.com
+identitytoolkit.googleapis.com
+ingest.us.sentry.io
+login.windsurf.com
+marketplace.windsurf.com
+o4507463137361920.ingest.us.sentry.io
+register.windsurf.com
+securetoken.googleapis.com
+server.enterprise.windsurf.com
+server.self-serve.windsurf.com
+status.windsurf.com
+trust.windsurf.com
 unleash.codeium.com
-windsurf.build
+vitals.vercel-insights.com
+web-backend.windsurf.com
 windsurf-stable.codeium.com
 windsurf-stable.codeiumdata.com
 windsurf-telemetry.codeium.com
-docs.windsurf.com
-cdn.logr-ingest.com
-o4507463137361920.ingest.us.sentry.io
+windsurf.build
+windsurf.com
+www.windsurf.com
 
 ## TikTok/ByteDance сервисы
 
@@ -301,52 +310,70 @@ media-cdg4-3.cdn.whatsapp.net
 
 ## Trae.ai (AI платформа)
 
-www.trae.ai
-trae.ai
-api.trae.ai
-api.trae.cn
-telemetry.trae.ai
 api-sg-central.trae.ai
 api-us-east.trae.ai
-trae-api-sg.mchost.guru
-trae-api-us.mchost.guru
-sf16-tcc-tos-sg.byteoversea.com
-sf16-tcc-tos-va.byteoversea.com
-sf16-short-va.bytedapm.com
-lf-c-flwb.bytetos.com
-lf-cdn.trae.ai
-mssdk.bytedance.com
-maliva-mcs.byteoversea.com
-tiktok.com
-vt.tiktok.com
-libraweb-va.tiktok.com
+api.trae.ai
+api.trae.cn
+bat.bing.com
+bytedance.com
+bytedapm.com
 bytegate-sg.byteintlapi.com
 bytegate.zijieapi.com
+byteintlapi.com
+bytelemon.com
+byteoversea.com
+bytetos.com
+ctobsnssdk.comwww.trae.ai
+doudou.com
 f-p-va.isnssdk.com
 frontier.byteoversea.com
-starling-oversea.byteoversea.com
-mon-va.byteoversea.com
-tron-sg.bytelemon.com
-mcs.ctobsnssdk.com
+icube-normal.trae.ai
+isnssdk.com
+lf-c-flwb.bytetos.com
+lf-cdn.trae.ai
+lf-headquarters-speed.yhgfb-cn-static.com
+lf16-web-neutral.traecdn.ai
 libraweb-sg.tiktok.com
-doudou.com
+libraweb-va.tiktok.com
+maliva-mcs.byteoversea.com
 marscode.cn
 marscode.com.cn
 mcbaas.work
 mcdemo.show
 mchost.guru
 mcprev.cn
+mcs-normal.trae.ai
+mcs.ctobsnssdk.com
+mon-normal.trae.ai
+mon-va.byteoversea.com
+mssdk-sg.trae.ai
+mssdk.bytedance.com
+sf16-passport-va.ibytedtos.com
+sf16-short-sg.bytedapm.com
+sf16-short-va.bytedapm.com
+sf16-tcc-tos-sg.byteoversea.com
+sf16-tcc-tos-va.byteoversea.com
+sf16-website-login.neutral.ttwstatic.com
+starling-oversea.byteoversea.com
+static.ads-twitter.com
 tcwqqdy.guru
+telemetry.trae.ai
+tiktok.com
+trae-api-sg.mchost.guru
+trae-api-us.mchost.guru
+trae.ai
 trae.cn
 trae.com.cn
 trae.guru
-yoma.cn
-bat.bing.com
-lf-headquarters-speed.yhgfb-cn-static.com
-sf16-short-sg.bytedapm.com
-static.ads-twitter.com
+tron-sg.bytelemon.com
+ug-normal.trae.ai
 unpkg.com
-byteoversea.com
+vt.tiktok.com
+yhgfb-cn-static.com
+yoma.cn
+zijieapi.com
+marscode.com
+www.marscode.com
 
 ## Поисковые системы и браузеры
 
@@ -542,6 +569,51 @@ telesco.pe
 tg.dev
 tx.me
 usercontent.dev
+
+## Patreon
+
+patreon.com
+patreoncommunity.com
+patreonusercontent.com
+live-patreon-marketing.pantheonsite.io
+c10.patreonusercontent.com
+c13.patreon.com
+c5.patreon.com
+
+## Oculus & Meta.ai 
+
+accountscenter.meta.com
+auth.meta.com
+binoculus.com
+buyoculus.com
+connect.facebook.net
+graph.oculus.com
+horizon.meta.com
+llama.com
+lookaside.fbsbx.com
+meta.ai
+meta.com
+ocul.us
+oculus-china.com
+oculus.com
+oculus2014.com
+oculus3d.com
+oculusblog.com
+oculusbrand.com
+oculuscasino.net
+oculuscdn.com
+oculusconnect.com
+oculusdiving.com
+oculusforbusiness.com
+oculusrift.com
+oculusvr.com
+powersunitedvr.com
+scontent-hel3-1.oculuscdn.com
+scontent-hel3-1.xx.fbcdn.net
+secure.oculus.com
+static.xx.fbcdn.net
+video-hel3-1.xx.fbcdn.net
+www.meta.com
 
 ## Другие сервисы
 
