@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: pip install -r requirements-dev.txt
+      - name: Lint list.txt
+        run: python domains.py lint --strict
+      - name: list_2nd_level.txt up to date
+        run: python domains.py build --check
+      - name: Tests
+        run: python -m pytest -q
+
+  # Еженедельная проверка живости доменов: упадет, если появились NXDOMAIN/SERVFAIL.
+  # Отчет (JSON и HTML с фильтрами) лежит в артефактах запуска.
+  check:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: pip install -r requirements.txt
+      - name: Dead domains check
+        run: python domains.py check --json check.report.json --html check.report.html
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: check-report
+          path: |
+            check.report.json
+            check.report.html
+          if-no-files-found: ignore

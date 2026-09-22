@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "domains"
+version = "2.1.0"
+description = "Список доменов для выборочной маршрутизации (Keenetic, kvas и др.): валидация, сборка, проверка мертвых доменов"
+requires-python = ">=3.10"
+dependencies = ["aiodns>=4.0", "tldextract>=5.1", "idna>=3.4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+domains = "domainlist.cli:main"
+
+[tool.setuptools]
+packages = ["domainlist"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

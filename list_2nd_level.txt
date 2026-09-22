@@ -1,10 +1,11 @@
 # Список доменов по сервисам
+# Собрано автоматически из list.txt: python domains.py build. Руками не редактировать.
 
 ## Anthropic Claude (AI ассистент)
 
 claude.ai
 anthropic.com
-b-cdn.net
+servd-anthropic-website.b-cdn.net
 claude.com
 claudeusercontent.com
 claudemcpclient.com
@@ -14,16 +15,17 @@ claudemcpclient.com
 openai.com
 chatgpt.com
 oaistatic.com
-oaiusercontent.com
 sora.com
-livekit.cloud
+turn.livekit.cloud
 chat.com
-cloudflare.net
-azureedge.net
-azurefd.net
-windows.net
+oaiusercontent.com
+openai.com.cdn.cloudflare.net
+openaiapi-site.azureedge.net
+openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+openaicomproductionae4b.blob.core.windows.net
+production-openaicom-storage.azureedge.net
 
-## xAI Grok (AI от Илона Маска)
+## xAI Grok
 
 grok.com
 x.ai
@@ -33,7 +35,6 @@ grokusercontent.com
 
 cloudflare-ech.com
 dis.gd
-googleapis.com
 discord.app
 discord.co
 discord.com
@@ -57,22 +58,25 @@ discordsez.com
 localizeapi.com
 website-files.com
 
-## Google AI сервисы (Bard, Gemini, NotebookLM)
+## Google (Bard, Gemini, NotebookLM, Docs, Drive, Play)
 
-google.dev
 google.com
-notebooklm.google
-withgoogle.com
-generativeai.google
 deepmind.com
 deepmind.google
-labs.google
-googletagmanager.com
-pki.goog
-gstatic.com
 googleusercontent.com
+gstatic.com
 gemini.google
+generativeai.google
+google-analytics.com
+google.dev
+doubleclick.net
+googleapis.com
 jules.google
+labs.google
+notebooklm.google
+pki.goog
+withgoogle.com
+googletagmanager.com
 
 ## Microsoft Copilot
 
@@ -80,26 +84,25 @@ microsoft.com
 microsoftonline.com
 live.com
 visualstudio.com
-msecnd.net
-bing.com
-sentry.io
+az416426.vo.msecnd.net
+studiostaticassetsprod.azureedge.net
 
 ## ElevenLabs (AI голосовые технологии)
 
 elevenlabs.io
 elevenreader.io
-cloudfunctions.net
+us-central1-xi-labs.cloudfunctions.net
 
 ## Notion (платформа для заметок и управления проектами)
 
+notion-static.com
+notion.com
 notion.new
 notion.site
 notion.so
-notion.com
-notion-static.com
+notionusercontent.com
 splunkcloud.com
 sprig.com
-notionusercontent.com
 
 ## Make.com (автоматизация процессов)
 
@@ -107,22 +110,17 @@ make.com
 
 ## Codeium/Windsurf (AI для программирования)
 
-github.io
-windsurf.com
-codeium.com
-windsurf.build
-codeiumdata.com
 logr-ingest.com
+codeium.com
+exafunction.github.io
+vercel-insights.com
+codeiumdata.com
+windsurf.build
+windsurf.com
 
 ## TikTok/ByteDance сервисы
 
 tiktok.com
-byteintlapi.com
-zijieapi.com
-isnssdk.com
-byteoversea.com
-bytelemon.com
-ctobsnssdk.com
 
 ## WhatsApp (мессенджер Facebook/Meta)
 
@@ -136,30 +134,42 @@ whatsapp-plus.info
 whatsapp-plus.me
 whatsapp-plus.net
 wa.me
-facebook.com
 
 ## Trae.ai (AI платформа)
 
-trae.ai
-trae.cn
-mchost.guru
-bytedapm.com
-bytetos.com
 bytedance.com
+bytedapm.com
+byteintlapi.com
+bytelemon.com
+byteoversea.com
+bytetos.com
+ctobsnssdk.com
 doudou.com
+isnssdk.com
+traecdn.ai
 marscode.cn
 marscode.com.cn
 mcbaas.work
 mcdemo.show
+mchost.guru
 mcprev.cn
+ibytedtos.com
+ttwstatic.com
+ads-twitter.com
 tcwqqdy.guru
+trae.ai
+trae.cn
 trae.com.cn
 trae.guru
-yoma.cn
+unpkg.com
 yhgfb-cn-static.com
+yoma.cn
+zijieapi.com
+marscode.com
 
 ## Поисковые системы и браузеры
 
+bing.com
 brave.com
 
 ## Инструменты для разработчиков
@@ -175,14 +185,15 @@ github.com
 ## Instagram (платформа для социальных сетей)
 
 instagram.com
+facebook.com
 fbcdn.net
-cdninstagram.com
 achat-followers-instagram.com
 acheter-followers-instagram.com
 acheterdesfollowersinstagram.com
 acheterfollowersinstagram.com
 bookstagram.com
 carstagram.com
+cdninstagram.com
 chickstagram.com
 ig.me
 igsonar.com
@@ -256,6 +267,7 @@ dnsleaktest.com
 
 ## Мониторинг и аналитика
 
+sentry.io
 browser-intake-datadoghq.com
 adjust.net.in
 appcenter.ms
@@ -281,6 +293,7 @@ weather.com
 
 cdntogo.net
 brightdata.com
+ns1.cloudflare.net
 
 ## hdrezka
 
@@ -289,15 +302,14 @@ hdrezka.site
 jsdelivr.net
 s2517.com
 hdrezka.ac
+clarity.ms
 voidboost.com
 voidboost.cc
-clarity.ms
 
 ## Telegram
 
 t.me
 telegram.me
-telegram.org
 cdn-telegram.org
 comments.app
 contest.com
@@ -308,11 +320,44 @@ tdesktop.com
 telega.one
 telegra.ph
 telegram.dog
+telegram.org
 telegram.space
 telesco.pe
 tg.dev
 tx.me
 usercontent.dev
+
+## Patreon
+
+patreon.com
+patreoncommunity.com
+patreonusercontent.com
+live-patreon-marketing.pantheonsite.io
+
+## Oculus & Meta.ai
+
+binoculus.com
+buyoculus.com
+facebook.net
+llama.com
+fbsbx.com
+meta.ai
+meta.com
+ocul.us
+oculus-china.com
+oculus.com
+oculus2014.com
+oculus3d.com
+oculusblog.com
+oculusbrand.com
+oculuscasino.net
+oculuscdn.com
+oculusconnect.com
+oculusdiving.com
+oculusforbusiness.com
+oculusrift.com
+oculusvr.com
+powersunitedvr.com
 
 ## Другие сервисы
 

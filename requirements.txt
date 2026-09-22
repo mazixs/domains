@@ -1,4 +1,3 @@
-aiodns
-aiohttp
-tldextract
-
+aiodns>=4.0
+tldextract>=5.1
+idna>=3.4

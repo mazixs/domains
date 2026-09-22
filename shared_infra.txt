@@ -1,0 +1,46 @@
+# Зоны общей инфраструктуры (CDN, облака, SaaS с поддоменами клиентов).
+#
+# Поддомены этих зон НЕ схлопываются до 2-го уровня при сборке list_2nd_level.txt:
+# servd-anthropic-website.b-cdn.net останется как есть, а не превратится в b-cdn.net,
+# иначе через VPN пойдет трафик всех клиентов этого CDN.
+#
+# Private-раздел Public Suffix List (github.io, azureedge.net, cloudfront.net,
+# vercel.app и т.д.) учитывается автоматически, здесь только то, чего в PSL нет.
+# Если нужна вся зона целиком - добавьте ее голым доменом в list.txt (как sentry.io).
+
+## CDN
+
+b-cdn.net
+cdn77.org
+edgecastcdn.net
+fastly.net
+hwcdn.net
+kxcdn.com
+llnwd.net
+msecnd.net
+
+## Облака
+
+aliyuncs.com
+amazonaws.com
+cloudflarestorage.com
+firebaseio.com
+myqcloud.com
+windows.net
+
+## SaaS с поддоменами клиентов
+
+atlassian.net
+auth0.com
+freshdesk.com
+gitbook.io
+hubspot.net
+intercom.io
+livekit.cloud
+okta.com
+splunkcloud.com
+sentry.io
+statuspage.io
+substack.com
+wpengine.com
+zendesk.com

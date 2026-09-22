@@ -4,3 +4,20 @@
 # Python cache
 __pycache__/
 *.pyc
+
+# Tests
+.pytest_cache/
+
+# Отчеты check --json
+*.report.json
+
+# Кэш и история проверок
+.cache/
+.domains-state.json
+
+# Отчеты check --html
+*.report.html
+
+# pip install -e .
+*.egg-info/
+build/

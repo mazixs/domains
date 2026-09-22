@@ -1,0 +1,2 @@
+# kvas import требует LF: не даем git на Windows превратить списки в CRLF
+*.txt text eol=lf
