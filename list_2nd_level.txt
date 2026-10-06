@@ -52,7 +52,6 @@ discordapp.com
 discordapp.net
 discordcdn.com
 discordmerch.com
-discordpartygames.com
 discordsays.com
 discordsez.com
 localizeapi.com
